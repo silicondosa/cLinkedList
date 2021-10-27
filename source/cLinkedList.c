@@ -9,6 +9,10 @@
 #include "cLinkedList.h"
 #include "macrodef.h"
 
+#ifdef __cplusplus 
+extern "C" {
+#endif 
+
 /********************************/
 /* Linked list status functions */
 /********************************/
@@ -440,3 +444,8 @@ void cListUnlinkData (cLinkedList *delList, void *delData)
 {
     cListUnlinkElem(delList, cListFindElem(delList, delData));
 }
+
+#ifdef __cplusplus 
+}
+#endif 
+
