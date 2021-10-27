@@ -9,6 +9,10 @@
 #ifndef CLINKEDLIST_H
 #define CLINKEDLIST_H
 
+#ifdef __cplusplus 
+extern "C" {
+#endif 
+
 #include <stddef.h>
 #include <stdlib.h>
 #include "macrodef.h"
@@ -76,5 +80,9 @@ void cListUnlinkElem         (cLinkedList *myList, cListElem *myElem);
 void cListUnlinkAll          (cLinkedList *myList);
 
 void cListUnlinkData         (cLinkedList *myList, void *myData);
+
+#ifdef __cplusplus 
+}
+#endif 
 
 #endif //CLINKEDLIST_H
