@@ -6,8 +6,8 @@
 #include <stdio.h>
 #include <stddef.h>
 #include <stdlib.h>
-#include "cLinkedList.h"
-#include "macrodef.h"
+#include "../include/cLinkedList.h"
+#include "../include/macrodef.h"
 
 #ifdef __cplusplus 
 extern "C" {

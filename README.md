@@ -8,6 +8,9 @@ In addition to the source, you can download `cLinkedList` as a precompiled libra
 
 At some point, I will also build shared and static libraries for 64-bit PC Linux.
 
+## Usage
+Download the repo and place it in your project directory. Be sure to add the `include` and `bin` directories of the project to your compile and linker paths respectively. You do not need the `source` and `cLinkedList` directories which can be safely remove.
+
 ## Supported functions
 ### 1. Linked list creation functions
 - Create and ***initialize*** a linked list in dynamic memory.
