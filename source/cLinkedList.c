@@ -3,20 +3,11 @@
  * \brief cLinkedList: A simple linked list manager for C/C++.
  * \author Suraj Chakravarthi Raja
  */
-
-
+#include <stdio.h>
+#include <stddef.h>
+#include <stdlib.h>
 #include "cLinkedList.h"
 #include "macrodef.h"
-#include <stdio.h>
-
-#ifdef _WIN32
-    #include <cstddef>
-    #include <cstdlib>
-#else
-    #include <stddef.h>
-    #include <stdlib.h>
-#endif
-
 
 /********************************/
 /* Linked list status functions */

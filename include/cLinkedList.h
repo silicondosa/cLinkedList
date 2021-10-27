@@ -9,17 +9,11 @@
 #ifndef CLINKEDLIST_H
 #define CLINKEDLIST_H
 
+#include <stddef.h>
+#include <stdlib.h>
 #include "macrodef.h"
 
-#ifdef _WIN32
-    #include <stddef.h>
-    #include <stdlib.h>
-#else
-    #include <stddef.h>
-    #include <stdlib.h>
-#endif
-
-/*!
+ /*!
  * \typedef Structure for a single element on the ::cLinkedList linked list.
  */
 typedef struct _cListElem {
