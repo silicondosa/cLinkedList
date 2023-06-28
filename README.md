@@ -4,12 +4,12 @@ This is a simple linked list manager for C that I've been using for a long while
 This library allows you to dynamically create and manage doubly linked lists of elements that already exist in memory using pointers. This means that the actual data is untouched by this library which essentially manages a linked list of pointers to data.
 
 ## Supported platforms and binaries
-In addition to the source, you can download `cLinkedList` as a precompiled library. It's currently *only available as a static library for Windows (WIN32, x86)*, but I will make a DLL available when I have a time away from academics.
+In addition to the source, you can download `cLinkedList` as a precompiled library. It's currently *only available as a static library for Windows (WIN32, x64)*, but I will make a DLL available when I have a time away from academics.
 
 At some point, I will also build shared and static libraries for 64-bit PC Linux.
 
 ## Usage
-Download the repo and place it in your project directory. Be sure to add the `include` and `bin` directories of the project to your compile and linker paths respectively. You do not need the `source` and `cLinkedList` directories which can be safely remove.
+Download the repo and place it in your project directory. Be sure to add the `include` directory along with either the `bin/Win32/` or `bin/x64/` directory to your compile and linker paths respectively. You do not need the `source` and `cLinkedList` directories, both of which can be safely removed.
 
 ## Supported functionalities and documentation
 Doxygen documentation for each of the functionalities below are linked with the functions. The Doxygen documentation home page is [here](https://silicondosa.github.io/cLinkedList/index.html).
