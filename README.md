@@ -9,7 +9,7 @@ In addition to the source, you can download `cLinkedList` as a precompiled libra
 At some point, I will also build shared and static libraries for 64-bit PC Linux.
 
 ## Usage
-Download the repo and place it in your project directory. Be sure to add the `include` directory along with either the `bin/Win32/` or `bin/x64/` directory to your compile and linker paths respectively. You do not need the `source` and `cLinkedList` directories, both of which can be safely removed.
+Download the repo and place it in your project directory. Be sure to add the `include` directory along with either the `bin/msvc/Win32/` or `bin/msvc/x64/` directory to your compile and linker paths respectively. You do not need the `source` and `cLinkedList` directories, both of which can be safely removed.
 
 ## Supported functionalities and documentation
 Doxygen documentation for each of the functionalities below are linked with the functions. The Doxygen documentation home page is [here](https://silicondosa.github.io/cLinkedList/index.html).
