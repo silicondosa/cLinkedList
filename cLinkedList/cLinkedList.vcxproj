@@ -103,6 +103,7 @@
       <PreprocessToFile>false</PreprocessToFile>
       <ShowIncludes>true</ShowIncludes>
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -123,6 +124,7 @@
       <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
       <CompileAs>CompileAsC</CompileAs>
       <ShowIncludes>true</ShowIncludes>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
