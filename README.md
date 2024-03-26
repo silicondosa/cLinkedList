@@ -4,7 +4,7 @@ This is a simple linked list manager for C that I've been using for a long while
 This library allows you to dynamically create and manage doubly linked lists of elements that already exist in memory using pointers. This means that the actual data is untouched by this library which essentially manages a linked list of pointers to data.
 
 ## Supported platforms and binaries
-In addition to the source, you can download `cLinkedList` as a precompiled library. It's currently *only available as a static library for Windows (WIN32, x64)*, but I will make a DLL available when I have a time away from academics.
+In addition to the source, you can download `cLinkedList` as a precompiled library. It is currently *only available as a static library for 64-bit Windows*, but I will make a DLL available when I have a time away from academics.
 
 At some point, I will also build shared and static libraries for 64-bit PC Linux.
 

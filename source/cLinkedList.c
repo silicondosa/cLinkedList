@@ -314,7 +314,7 @@ int cListInsertAfter (cLinkedList *myList, void *newData, cListElem *elem)
     if (cListEmpty(myList)) {
 		myList->anchor.prevElem = newElem;
 		myList->anchor.nextElem = newElem;
-		newElem->prevElem		= newElem;
+		newElem->prevElem		= &(myList->anchor);
 		newElem->nextElem		= &(myList->anchor);
     } else {
         newElem->prevElem           = elem;
@@ -346,7 +346,7 @@ int cListInsertBefore (cLinkedList *myList, void *newData, cListElem *elem)
     if (cListEmpty(myList)) {
 		myList->anchor.prevElem = newElem;
 		myList->anchor.nextElem = newElem;
-		newElem->prevElem		= newElem;
+		newElem->prevElem		= &(myList->anchor);
 		newElem->nextElem		= &(myList->anchor);
     } else {
         newElem->prevElem           = elem->prevElem;
@@ -424,12 +424,10 @@ int cListPrepend (cLinkedList *myList, void *newData) {
 void cListUnlinkAll (cLinkedList *myList)
 {
 	cListElem *elem = cListFirstElem(myList);
-	cListElem *nextElem = cListNextElem(myList, elem);
 
     while (elem != NULL) {
 		cListUnlinkElem(myList, elem);
-		elem = nextElem;
-		nextElem = cListNextElem(myList, elem);
+		elem = cListFirstElem(myList);
 	}
 }
 
